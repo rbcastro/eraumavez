@@ -17,5 +17,5 @@
 #           server: ${{ secrets.ftp_host }}
 #           username: ${{ secrets.ftp_user }}
 #           password: ${{ secrets.ftp_password }}
-#           server-dir:  /cartao.eraumavezpapel.com.br 
-#           local-dir: cartao
+#           local-dir: cartao/
+#           server-dir:  /home3/erauma41/cartao.eraumavezpapel.com.br/
