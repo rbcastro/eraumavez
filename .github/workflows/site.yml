@@ -1,7 +1,7 @@
 on:
   push:
-  branches: 
-    -main
+    branches:
+      main
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -18,4 +18,4 @@ jobs:
           username: ${{ secrets.ftp_user }}
           password: ${{ secrets.ftp_password }}
           local-dir: site/
-          server-dir:  home3/erauma41/public_html/
+          server-dir: home3/erauma41/public_html/
